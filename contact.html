@@ -21,7 +21,7 @@
    >
      <h1 class="text-2xl">Greenden</h1>
 
-     <svg
+     <svg id="menuicon"
        xmlns="http://www.w3.org/2000/svg"
        fill="none"
        viewBox="0 0 24 24"
@@ -43,6 +43,20 @@
        <li><a href="About.html" class="hover:text-green-900 hover:bg-gray-100 p-2 rounded-3xl">About</a></li>
      </ul>
    </nav>
+
+       <!-- side navbar -->
+       <section id="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000" style="width: 50%; height: 100vh; right: -50%;">
+        <div class="text-right p-5">
+         <p class="inline cursor-pointer" id="close-nav">X</p>
+        </div>
+ <ul class="flex flex-col gap-5 items-center text-gray-600 ">
+   <li><a href="index.html" class="hover:text-green-900 hover:bg-gray-100 p-2 rounded-3xl">Home</a></li>
+   <li><a href="Product.html" class="hover:text-green-900 hover:bg-gray-100 p-2 rounded-3xl">Product</a></li>
+   <li><a href="contact.html" class="hover:text-green-900 hover:bg-gray-100 p-2 rounded-3xl">Contact</a></li>
+   <li><a href="About.html" class="hover:text-green-900 hover:bg-gray-100 p-2 rounded-3xl">About</a></li>
+ </ul>
+
+</section>
 
    <!-- our products page -->
 
@@ -135,5 +149,7 @@
     <p>The  Stard chunk of lorem ipsum since the 1500s is repordused below for those interest</p>
     <p>@2024 greeday.com</p>
      </section>
+
+     <script src="script.js"></script>
 </body>
 </html>
